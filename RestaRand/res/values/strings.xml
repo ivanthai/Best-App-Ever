@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, RestaRandActivity!</string>
-    <string name="app_name">RestaRand</string>
+	<string name="app_name">Restaurand</string>
+	<string name="main_title1">Restaurand</string>
+	<string name="main_title2">(Restaurant Randomizer)</string>
+	<string name="go_label">GO!!</string>
+	<string name="menu_label">Menu</string>
+	<string name="result_title">Result</string>
+	<string name="result_text">Result</string>
+	<string name="add">Add</string>
+
 </resources>

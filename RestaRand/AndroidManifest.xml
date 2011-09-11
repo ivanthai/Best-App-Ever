@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="net.twitmtjt.RestaRand"
-      android:versionCode="1"
-      android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="9" />
+	package="net.twitmtjt.RestaRand" android:versionCode="1"
+	android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="9" />
 
-    <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:name=".RestaRandActivity"
-                  android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-    </application>
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".RestaRandActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Activity2" android:label="Activity 2">
+			<intent-filter>
+				<action android:name="net.twitmtjt.ACTIVITY2" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+	</application>
 </manifest>
